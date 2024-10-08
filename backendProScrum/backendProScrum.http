@@ -1,0 +1,9 @@
+@backendProScrum_HostAddress = http://localhost:5174
+
+GET {{backendProScrum_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{backendProScrum_HostAddress}}/
+Accept: application/json
+
+###
