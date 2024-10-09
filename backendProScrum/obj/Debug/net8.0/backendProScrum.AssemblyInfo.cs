@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backendProScrum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913fdfb0f8c0cef0a9573e9745ae40a2ca87f3ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("backendProScrum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backendProScrum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

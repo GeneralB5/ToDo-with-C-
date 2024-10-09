@@ -1,12 +1,12 @@
 # Este es mi primer proyeto completo en C# (enfoque)
 ## En este proyecto me enfoque en backend por lo tanto es lo que mejor esta producido, aunque se explica en el swagger voy a explicarlo en simples palabras
 
-### -UserController
+## -UserController
 ###     -Login
 ###     -Register
-###     -DeleteUset (No lo utilizo todavia/ in process...)
+###     -DeleteUser (No lo utilizo todavia/ in process...)
 ###     -UpdateUser (No lo utilizo todavia/ in process...)
-###  -ToDoController
+##  -ToDoController
 ###     -UpdateToDO
 ###     -DeleteToDo
 

@@ -14,6 +14,7 @@ import RegisterPage from './pages/register';
 import { UserContext,ContextProvider} from './Context/Context.jsx';
 import ErrorPage from './pages/ErrorPage';
 import ErrorSession from './pages/ErrorNoSession.jsx';
+import UserPage from './pages/userPage.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LoginPage />}/>
           <Route path='/register' element={<RegisterPage />} />
+          <Route path='/user' element={<UserPage />} />
           <Route path='/ToDo' element={<Todopage/>}/>
           <Route path='/Error/session' element={<ErrorSession />}/>
           <Route path='*' element={<ErrorPage />}></Route>
