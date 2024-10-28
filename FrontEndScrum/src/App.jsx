@@ -1,20 +1,17 @@
+import React from 'react'
 import './App.css'
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'react-toastify/dist/ReactToastify.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'react-toastify/dist/ReactToastify.css'
+
 import {
-  BrowserRouter as Router,
+  Router,
+  Routes,
   Route,
-  Routes
-} from "react-router-dom";
-import Layout from './components/layout/Layout'
-import Todopage from './pages/ToDoPage';
-import {ToastContainer} from "react-toastify"
-import LoginPage from './pages/loginPage';
-import RegisterPage from './pages/register';
-import { UserContext,ContextProvider} from './Context/Context.jsx';
-import ErrorPage from './pages/ErrorPage';
-import ErrorSession from './pages/ErrorNoSession.jsx';
-import UserPage from './pages/userPage.jsx';
+  ToastContainer,
+  ContextProvider
+} from './indexArc/index'
+
+import {Layout,UserPage,LoginPage,ErrorPage,ErrorSession,Todopage,RegisterPage} from './indexArc/index.jsx'
 
 function App() {
 

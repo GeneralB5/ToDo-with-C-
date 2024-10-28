@@ -46,3 +46,4 @@ C:\Users\Las Melli\Desktop\proyecto_scrum\backendProScrum\obj\Debug\net8.0\backe
 C:\Users\Las Melli\Desktop\proyecto_scrum\backendProScrum\obj\Debug\net8.0\ref\backendProScrum.dll
 C:\Users\Las Melli\Desktop\proyecto_scrum\backendProScrum\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Las Melli\Desktop\proyecto_scrum\backendProScrum\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Las Melli\Desktop\proyecto_scrum\backendProScrum\obj\Debug\net8.0\backendProScrum.sourcelink.json

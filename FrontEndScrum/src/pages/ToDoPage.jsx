@@ -1,4 +1,4 @@
-import { useContext, useEffect} from "react"
+import { useContext, useEffect, useState} from "react"
 import CreationDiv from "../components/creation/creationDiv"
 import DivIntruc from "../components/divInstrucciones/divIntrucc"
 import SectionToDoList from "../components/sectionToDoList/sectionToDoList"
@@ -9,10 +9,14 @@ import SpinnerLoad from "../components/Loading/loadingSpinner"
 function Todopage(){
 const navigate = useNavigate();
 const {valoresUser} = useContext(UserContext)
+const [loading , setLoading]= useState(true)
 useEffect(()=>{
-    if(valoresUser.email === "") navigate("/error/session")
+    if(!valoresUser) navigate("/error/session")
+    return(
+setLoading(false)
+)
 },[])
-if(valoresUser.email=="") return(<SpinnerLoad />)
+if(loading) return(<SpinnerLoad />)
 return(
     <>
     <div className="divWrapperToDo" style={{display:"flex",justifyContent:"space-around",alignItems:'center',marginBottom:30}}>

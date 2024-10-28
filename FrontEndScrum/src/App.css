@@ -41,7 +41,7 @@
   }
 }
 
-
+/* header */
 .header_layout{
   background-color:var(--main-bg-color);
   height: 100px;
@@ -53,6 +53,19 @@
 
   margin-bottom: 20px;
 }
+
+.iconosheader{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px inset, rgba(215, 223, 231, 0.747) 0px 0px 5px 1px ;
+}
+
+/* footer */
 .footer_Layout{
   display: flex;
   align-items: center;
@@ -713,4 +726,67 @@ ul {
 .example-2 .icon-content a[data-social="telegram"] .filled,
 .example-2 .icon-content a[data-social="telegram"] ~ .tooltip {
   background-color: #0088cc;
+}
+
+/* UserPage */
+        
+.sectionUserPage{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.userinfoSuperiorDiv{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:400px;
+  height:250px;
+  border-radius:20px;
+  background-color:#30344c;
+  gap:20px;
+  box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px ,rgba(215, 223, 231, 0.747) 0px -2px 6px 0px inset;
+}
+.divWrapperUserPage div{
+border-radius: 20px;
+width: 400px;
+height: 225px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.divSuperiorUserPage{
+  background-color: #30344c;
+}
+
+.glassEffect{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/* para cuando no hay ninguna */
+/* background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+.userH2{
+  color:whitesmoke;
+  font-size:25px;
+  
+}
+@media (max-width: 850px){
+  .sectionUserPage{
+    flex-direction:column;
+    gap: 50px;
+  }
+  .userinfoSuperiorDiv{
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+  }
+  .divWrapperUserPage div{
+    width: 300px;
+  }
 }
